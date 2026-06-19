@@ -1,83 +1,36 @@
-# WhatsApp Visitor Management System
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Overview
+## Getting Started
 
-A WhatsApp-based Visitor Management System designed for residential communities.
+First, run the development server:
 
-Residents can generate temporary visitor access codes directly through WhatsApp without installing any mobile application. Security guards can verify visitor codes through a simple verification interface, while administrators can manage residents and monitor visitor activity through a centralized dashboard.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Problem Statement
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Traditional visitor management platforms are often expensive and difficult to adopt for small residential communities.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-This project aims to provide a lightweight, low-cost, and user-friendly alternative using WhatsApp as the primary communication channel.
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-## Key Features
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-* WhatsApp-based visitor pass generation
-* Secure 4-digit visitor access tokens
-* Time-limited visitor passes
-* Guard verification interface
-* Resident notifications
-* Visitor activity logs
-* Resident management dashboard
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-## Tech Stack
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Frontend
-
-* Next.js
-* React
-* Tailwind CSS
-
-### Backend
-
-* Supabase
-* PostgreSQL
-* Serverless Functions
-
-### Integrations
-
-* WhatsApp API
-* Webhooks
-
----
-
-## Development Roadmap
-
-### Phase 1
-
-* Project setup
-* Database design
-* Resident management system
-
-### Phase 2
-
-* Visitor pass generation
-* Access token management
-
-### Phase 3
-
-* Guard verification portal
-* Visitor logging
-
-### Phase 4
-
-* WhatsApp integration
-* Resident notifications
-
-### Phase 5
-
-* Testing and deployment
-
----
-
-## Project Status
-
-🚧 Currently in Development
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
